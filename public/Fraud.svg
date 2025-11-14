@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 200" width="420" height="350">
+  <style>
+    :root { --primary:#111827; --accent:#f43f5e; }
+    .bg { fill:none; }
+    .bar { fill:var(--accent); }
+    .fi { font-family:'Inter', Arial, sans-serif; font-size:96px; font-weight:800; fill:var(--primary); }
+    .label { font-family:'Inter', Arial, sans-serif; font-size:20px; font-weight:600; fill:var(--primary); }
+  </style>
+
+  <rect class="bg" width="240" height="200"/>
+  <rect class="bar" x="20" y="70" width="200" height="14"/>
+
+  <text x="120" y="130" text-anchor="middle" class="fi">FI</text>
+  <text x="120" y="175" text-anchor="middle" class="label">Fraud Innovation</text>
+</svg>
