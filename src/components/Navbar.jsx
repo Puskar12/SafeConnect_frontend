@@ -86,7 +86,7 @@ const NavLinks = ({ role, token, handleLogout, closeMenu }) => (
   <>
     <Link to="/" onClick={closeMenu} className="hover:text-blue-500">Home</Link>
     <Link to="/about" onClick={closeMenu} className="hover:text-blue-500">About</Link>
-    <Link to="/ventures" onClick={closeMenu} className="hover:text-blue-500">Ventures</Link>
+    <Link to="/Showcase" onClick={closeMenu} className="hover:text-blue-500">Showcase</Link>
     <Link to="/careers" onClick={closeMenu} className="hover:text-blue-500">Careers</Link>
     <Link to="/contact" onClick={closeMenu} className="hover:text-blue-500">Contact</Link>
 

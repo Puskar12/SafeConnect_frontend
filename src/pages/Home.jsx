@@ -11,7 +11,7 @@ const Home = () => {
         <title>Fraud Innovations | Home</title>
       </Helmet>
 
-      {/* Hero Section */}
+
       <div className="max-w-5xl mx-auto text-center px-4">
         <motion.h1
           initial={{ opacity: 0, y: -20 }}
@@ -35,13 +35,13 @@ const Home = () => {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.98 }}
           className="bg-blue-600 text-white px-8 py-3 rounded-xl shadow-md hover:bg-blue-700"
-          onClick={()=>navigate("/ventures")}
+          onClick={()=>navigate("/Showcase")}
         >
           Learn More
         </motion.button>
       </div>
 
-      {/* Ventures Section */}
+
       <div className="mt-20 max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

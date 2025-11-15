@@ -8,7 +8,7 @@ const Signup = () => {
     email: "",
     password: "",
     confirmPassword: "",
-    role: "investor",
+    role: "member",
   });
   const [showPassword, setShowPassword] = useState(false);
   const [message, setMessage] = useState("");

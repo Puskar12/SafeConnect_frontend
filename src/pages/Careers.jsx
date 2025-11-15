@@ -10,7 +10,7 @@ const Careers = () => {
       .get("https://safe-connect-backend.vercel.app/api/jobs")
       .then((res) => setJobs(res.data))
       .catch(() => {
-        // Temporary placeholder data
+        
         setJobs([
           { _id: 1, title: "Frontend Developer", location: "Remote", description: "Work with React and Tailwind on UI components." },
           { _id: 2, title: "Backend Engineer", location: "Kestopur", description: "Build REST APIs with Node.js and MongoDB." },

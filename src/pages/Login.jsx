@@ -20,16 +20,16 @@ const Login = () => {
       localStorage.setItem("token", res.data.token);
       localStorage.setItem("role", res.data.role);
 
-      //Trigger Navbar update
+      
       window.dispatchEvent(new Event("authChange"));
 
-      //Redirect based on role
+      
       if (res.data.role === "investor") {
         navigate("/investor-portal");
       } else if (res.data.role === "hr") {
         navigate("/create-job");
       } else {
-        navigate("/"); // default for member or others
+        navigate("/"); 
       }
     } catch {
       setError("Invalid email or password");

@@ -34,7 +34,7 @@ const CreateJob = () => {
 
     try {
       await axios.post("https://safe-connect-backend.vercel.app/api/jobs", job, {
-        headers: { Authorization: `Bearer ${token}` }, // send token
+        headers: { Authorization: `Bearer ${token}` },
       });
       setMessage("Job created successfully!");
       setJob({ title: "", description: "", location: "", applyLink: "" });

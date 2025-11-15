@@ -15,7 +15,7 @@ const Ventures = () => {
             _id: 1,
             name: "Internship Used as Free Labor",
             description:
-              "Fraud Innovation focuses on exposing deceptive practices and helping individuals recognize the tactics used to manipulate or exploit them. The goal is simple: bring clarity, awareness, and transparency to situations where people are misled under the name of opportunity, training, or employment.",
+              "Fraud Innovation focuses on exposing deceptive practices and helping individuals recognize the tactics used to manipulate them. The goal is simple: bring clarity, awareness, and transparency to situations where people are misled under name of opportunity, training, or employment.",
             image: ns,
             button:"Learn More",
             link:"/card",
@@ -24,7 +24,7 @@ const Ventures = () => {
             _id: 2,
             name: "Fake Hiring Funnels",
             description:
-              "Fake hiring funnels are one of the most common corporate deception patterns today. They look professional from the outside — polished job listings, fast replies, and enthusiastic HR messages — but behind the scenes, there’s no real intention to hire anyone. ",
+              "Fake hiring funnels are one of the most common corporate deception patterns today. They look professional from the outside — polished job listings, fast replies, and enthusiastic HR messages — but behind the scenes, there’s no real intention to hire anyone at all truly or genuinely.",
             image: ionm,
             button:"Learn More",
             link:"/card2",
@@ -35,7 +35,7 @@ const Ventures = () => {
 
   return (
     <div className="max-w-6xl mx-auto py-12 px-4">
-      <h2 className="text-3xl font-semibold text-blue-600 mb-6">Our Ventures</h2>
+      <h2 className="text-3xl font-semibold text-blue-600 mb-6">Shared Cases</h2>
       <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8 ">
         {ventures.map((v) => (
           <div
